@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pennovation</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body data-0="background-position:0px 0px;" data-100000="background-position:0px -50000px;">
+
+<%= yield %>
+
+
+<!--Skrollr Magic -->
+	<script type="text/javascript">
+	    skrollr.init({
+			smoothScrolling: false,
+			mobileDeceleration: 0.004
+		});
+	</script>
+
+</body>
+</html>
