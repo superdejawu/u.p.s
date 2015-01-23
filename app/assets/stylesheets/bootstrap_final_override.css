@@ -1,0 +1,16 @@
+blockquote {
+  margin: 25px 0px 10px 0px;
+  padding: 0px 0px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #a8a8a8;
+  font-size:1.3em;
+  border-left: 0px;
+}
+
+.navbar-nav > li > a {
+	border-bottom: medium solid blue;
+}
+
+.navbar-nav > .active > a {
+	border-bottom: medium solid red;
+}

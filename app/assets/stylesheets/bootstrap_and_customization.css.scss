@@ -1,0 +1,42 @@
+$font-size-h1: 4em;
+
+$navbar-default-link-active-bg: transparent;
+$navbar-default-link-active-color: red;
+$navbar-default-link-color: blue;
+$navbar-default-border: thick;
+
+body { padding-top:120px;
+
+}
+
+$blockquote-border-color: transparent;
+
+blockquote {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: gray;
+  font-size:1.2em;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.6em;
+}
+blockquote p {
+  display: inline;
+}
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
